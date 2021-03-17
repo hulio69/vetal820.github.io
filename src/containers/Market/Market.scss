@@ -1,0 +1,206 @@
+@import "src/styles/vars.scss";
+
+.market {
+  background: 
+    url(/media/images/sections/market/market-bg.png) no-repeat right calc(50% - 50px) bottom / contain;
+  padding-bottom: 100px;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    top: -300px;
+    left: 0;
+    background: url(/media/images/sections/market/light-green-bg.png) no-repeat center center / contain;
+
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+
+
+
+  @media (max-width: 991px) {
+    background: 
+      url(/media/images/sections/market/light1.png) no-repeat bottom right,
+      url(/media/images/sections/market/light2.png) no-repeat top left;
+    padding-bottom: 50px;
+  }
+
+  @media (max-width: 767px) {
+    background: 
+      url(/media/images/sections/market/light1.png) no-repeat bottom right,
+      url(/media/images/sections/market/light2.png) no-repeat top left;
+    padding-bottom: 30px;
+  }
+
+  &__title {
+    margin-bottom: 65px;
+  }
+
+  &__item {
+    @include grayBlock;
+    padding: 20px;
+    width: 270px;
+    flex-shrink: 0;
+
+    &:nth-child(1) {
+      @media (min-width: 992px) {
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &:nth-child(2) {
+      @media (min-width: 992px) {
+        margin-top: 50px;
+        margin-bottom: -40px;
+      }
+    }
+
+    &:nth-child(3) {
+      @media (min-width: 992px) {
+        margin-right: 20px;
+      }
+    }
+
+    &:nth-child(4) {
+      @media (min-width: 992px) {
+        margin-top: 60px;    
+
+        .market__bottom-text {
+          padding-right: 20px;
+        }
+      }
+    }
+
+    @media (max-width: 991px) {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  &__item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 560px;
+
+    @media (max-width: 991px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    @media (max-width: 991px) {
+      order: 1;
+      width: 100px;
+      margin: 0;
+    }
+  }
+
+  &__num-block {
+    background: $dark;
+    color: #fff;
+    font-family: $micra;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: (21/20);
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    @media (max-width: 991px) {
+      width: 100%;
+      order: -1;
+      min-height: 90px;
+    }
+
+    @media (max-width: 767px) {
+      min-height: 75px;
+    }
+  }
+
+  &__num-info {
+    span {
+      font-size: 45px;
+      line-height: (55/45);
+
+      @media (max-width: 991px) {
+        font-size: 40px;
+      }
+  
+      @media (max-width: 767px) {
+        font-size: 35px;
+      }
+    }
+
+    &--income {
+      color: #183D58;
+      background: linear-gradient(180deg, #1FBF75 0%, #00E34E 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__bottom-text {
+    font-size: 14px;
+    line-height: (20/14);
+    color: #8E939C;
+
+    @media (max-width: 991px) {
+      max-width: calc(100% - 120px);
+      padding-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 12px;
+    }
+  }
+
+  &__item-grow {
+    font-size: 20px;
+    line-height: (21/20);
+    color: #fff;
+    padding: 8px 10px;
+    border: 1px solid #1FBF75;
+    border-radius: 10px;
+    font-family: $micra;
+
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+}

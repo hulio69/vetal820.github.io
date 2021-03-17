@@ -1,0 +1,347 @@
+@import 'src/styles/vars.scss';
+
+.ipo {
+  background: $dark;
+  color: #fff;
+
+  &__subtitle-text {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: (30/25);
+
+    @media (max-width: 991px) {
+      font-size: 22px;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 35px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+
+    @media (max-width: 1259px) {
+      margin-bottom: 100px;
+    }
+
+    @media (max-width: 991px) {
+      margin-bottom: 60px;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 35px;
+    }
+  }
+
+  &__title-box {
+    max-width: 515px;
+    padding-right: 65px;
+
+    @media (max-width: 1259px) {
+      padding-right: 40px;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 991px) {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__text-block {
+    max-width: 560px;
+    font-size: 20px;
+    line-height: (30/20);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    p {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      max-width: 100%;
+      font-size: 18px;
+
+      p {
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+
+  &__info-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+
+    @media (max-width: 1259px) {
+      grid-template-columns: 1fr 1fr .8fr .8fr;
+    }
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: (30/25);
+
+    @media (max-width: 1259px) {
+      font-size: 22px;
+    }
+
+    @media (max-width: 991px) {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  &__info-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include grayBlock;
+
+    &::before {
+      content: '';
+      position: absolute;
+    }
+    
+    &:nth-child(1) {
+      background: url(/media/images/sections/Ipo/item-bg1.svg)no-repeat center center, radial-gradient(
+        100% 100% at 0% 0%,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      
+      @media (min-width: 992px) {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        min-height: 375px;
+      }
+
+      @media (max-width: 991px) {
+        padding-right: 120px;
+        background: url(/media/images/sections/Ipo/item-bg1.svg)no-repeat right -50px bottom -90px / cover, radial-gradient(
+          100% 100% at 0% 0%,
+          rgba(255, 255, 255, 0.4) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      @media (max-width: 767px) {
+        background: url(/media/images/sections/Ipo/item-bg1.svg)no-repeat right -5px bottom -30px / contain, radial-gradient(
+          100% 100% at 0% 0%,
+          rgba(255, 255, 255, 0.4) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+    }
+
+    &:nth-child(2) {
+      background: url(/media/images/sections/Ipo/item-bg2.png)no-repeat center left -1px / contain, $mainGreen;
+      
+      @media (min-width: 992px) {
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+
+      @media (max-width: 991px) {
+        padding-left: 135px;
+        background: url(/media/images/sections/Ipo/item-bg2.png)no-repeat center left -10px / 145px, $mainGreen;
+      }
+    }
+
+    &:nth-child(3) {
+      
+      background: url(/media/images/sections/Ipo/item-bg3.svg)no-repeat center right 20px, linear-gradient(360deg, #2A92ED 0%, #2A92ED 0.01%, #2B64F8 100%);
+      
+      @media (min-width: 992px) {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        padding-right: 145px;
+      }
+
+      @media (max-width: 991px) {
+        padding-right: 100px;
+        background: url(/media/images/sections/Ipo/item-bg3.svg)no-repeat center right 20px / 70px, linear-gradient(360deg, #2A92ED 0%, #2A92ED 0.01%, #2B64F8 100%);
+      }
+
+      p {
+        max-width: 330px;
+      }
+    }
+
+    &:nth-child(4) {
+      background: radial-gradient(
+        100% 100% at 0% 0%,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ), url(/media/images/sections/Ipo/item-bg4.png)no-repeat center right 20px;
+      
+      @media (min-width: 992px) {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        padding-right: 185px;
+      }
+
+      @media (max-width: 991px) {
+        padding-left: 140px;
+        background: radial-gradient(
+        100% 100% at 0% 0%,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ), url(/media/images/sections/Ipo/item-bg4.png)no-repeat center left 20px / 100px;
+      }
+    }
+
+    p {
+      color: #8E939C;
+      font-size: 14px;
+      line-height: (20/14);
+      
+      span {
+        position: relative;
+        cursor: pointer;
+        color: $mainGreen;
+
+        svg {
+          position: relative;
+          top: 1px;
+        }
+
+        &:hover {
+          .ipo__tooltip-body {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+      
+      @media (min-width: 992px) {
+        min-height: 57px;
+      }
+
+      @media (max-width: 991px) {
+        font-size: 12px;
+      }
+    }
+
+    &--green {
+      p {
+        color: #EAFFF5;
+        opacity: 0.7;
+      }
+    }
+
+    &--blue {
+      p {
+        color: #D5EBFF;
+        opacity: 0.7;
+      }
+    }
+
+    @media (max-width: 991px) {
+      padding: 10px 15px;
+    }
+
+    @media (max-width: 767px) {
+      max-width: 400px;
+      margin: 0 auto;
+      min-height: 135px;
+      justify-content: flex-start;
+    }
+  }
+
+  &__marked-text-info {
+    cursor: pointer;
+
+    &:hover {
+      .ipo__tooltip-body {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  &__tooltip-box {
+    position: relative;
+    margin-left: 5px;
+  }
+
+  &__tooltip-body {
+    position: absolute;
+    top: calc(100% + 20px);
+    background: $dark;
+    color: #fff;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease;
+    cursor: auto;
+    border: 1px solid rgba(200,200,200, 0.1);
+
+    &::before {
+      content: '';
+      background: url(/media/images//global/high-arrow-tooltip.svg)no-repeat center center / contain;
+      width: 16px;
+      height: 20px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 100%;
+    }
+
+    &::after {
+      content: '';
+      width: 40%;
+      height: 25px;
+      position: absolute;
+      display: block;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 100%;
+    }
+
+    @media (max-width: 1259px) {
+      transform: translateX(-90%);
+
+      &::before {
+        left: 90%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      font-size: 12px;
+    }
+  }
+}
