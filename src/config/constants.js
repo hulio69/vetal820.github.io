@@ -5,7 +5,6 @@ export const MODAL_TYPES = {
 export const LANGUAGES = [
   { value: 'ru', name: 'Русский' },
   { value: 'en', name: 'English' },
-  { value: 'es', name: 'Española' },
 ]
 
 export const ROUTES = {
@@ -13,20 +12,12 @@ export const ROUTES = {
   main: '/',
   news: '/news',
 }
-  
-export const LINK_ROUTES = {
-  system: 'https://s-forex.io/',
-  wallet: 'https://s-wallet.ai/',
-  token: 'https://sn-token.io/',
-  pharmaceutical: 'https://s-pharmaceutical.io/',
-  ipo: window.location.origin,
-  cabinet: 'https://backoffice.sincere.systems/personal-office',
 
-  main: '',
-  signIn: '',
-  signUp: 'https://backoffice.sincere.systems/sign_up',
-  facebook: 'https://www.facebook.com/SincereSystems/',
-  instagram: 'https://www.instagram.com/sinceresystems/',
-  youtube: 'https://www.youtube.com/channel/UCjMumEGncMkciO9txuG1Cjg',
-  telegram: 'https://t.me/sinceresystems',
+export const CABINET_ROUTES = {
+  main: 'https://backoffice.cashback-global.io/',
+  signIn: 'https://backoffice.cashback-global.io/sign_in',
+  signUp: 'https://backoffice.cashback-global.io/sign_up',
+  facebook: 'https://www.facebook.com/cashbackglobal.io',
+  instagram: 'https://www.instagram.com/cashback_global/',
+  telegram: 'https://t.me/cashbackglobal_io',
 }

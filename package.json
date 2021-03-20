@@ -1,5 +1,5 @@
 {
-  "name": "ipo-landing",
+  "name": "cashback-global",
   "author": "SS",
   "version": "1.0.0",
   "keywords": [
@@ -18,8 +18,7 @@
     "react-final-form": "^6.5.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.4.3",
-    "react-share": "^4.2.1",
-    "react-slick": "^0.28.0"
+    "react-share": "^4.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

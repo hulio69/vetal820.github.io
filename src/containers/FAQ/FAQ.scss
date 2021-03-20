@@ -1,0 +1,121 @@
+@import 'src/styles/vars.scss';
+
+.faq {
+  background: url(/media/images/sections/faq/ask-bg.jpg)no-repeat left calc(50% + 370px) top 310px;
+
+  @media (max-width: 1259px) {
+    background: url(/media/images/sections/faq/ask-bg.jpg)no-repeat right -100px top 310px;
+  }
+
+  @media (max-width: 991px) {
+    background: none;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__item-title {
+    position: relative;
+    cursor: pointer;
+    padding: 20px 20px 20px 45px;
+    transition: .3s ease;
+
+    &:hover {
+      color: #49ADF3;
+
+      .faq {
+        &__icon {
+          background: $middleBlue;
+        }
+      }
+    }
+
+    &[data-open-status="true"] {
+      .faq {
+        &__icon {
+          background: $middleBlue;
+  
+          &::after {
+            opacity: 0;
+          }
+        }
+      }
+
+      & + .faq {
+        &__text-wrap {
+          max-height: 500px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    border-radius: 50%;
+    background: $darkBlue;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s ease;
+
+    &::before,
+    &::after {
+      content: '';
+      width: 11px;
+      height: 3px;
+      background: #fff;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+
+    &::before {
+      transform: translate(-50%, -50%);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(90deg);
+      transition: .3s ease;
+    }
+  }
+
+  &__list {
+    width: 755px;
+
+    @media (max-width: 1259px) {
+      width: calc(100% - 220px);
+    }
+
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+
+  &__item {
+    border-bottom: 2px solid #EBEAF8;
+  }
+
+  &__text-wrap {
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
+  &__text {
+    &:not(&:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

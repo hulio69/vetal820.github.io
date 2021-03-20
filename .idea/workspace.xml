@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f01a4b4e-721b-47ed-babb-193a0a4b6e36" name="Default Changelist" comment="" />
+    <list default="true" id="f01a4b4e-721b-47ed-babb-193a0a4b6e36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/images/global/btn-bg-lg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/images/global/btn-bg-md.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/images/global/high-arrow-tooltip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/images/global/og-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/media/images/global/og-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +35,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ipo-landing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sincere/sincere-wallet-admin-front" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/media/images/global" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/media/images/sections/why" />
       <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/public/media/images/sections/round" />
-      <recent name="$PROJECT_DIR$/public/media/images/sections" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +65,8 @@
       <workItem from="1615580710255" duration="788000" />
       <workItem from="1615792853094" duration="609000" />
       <workItem from="1616005856859" duration="273000" />
+      <workItem from="1616006144299" duration="2159000" />
+      <workItem from="1616054478438" duration="60000" />
     </task>
     <servers />
   </component>

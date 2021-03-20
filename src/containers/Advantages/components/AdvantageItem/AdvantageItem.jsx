@@ -1,0 +1,42 @@
+import React from "react";
+
+const AdvantageItem = (props) => {
+  return (
+    <li className="advantages__item">
+      <div className="advantages__text-part">
+        <h3 
+          className="
+            advantages__item-title
+            title 
+            title--subtitle
+        ">
+          {props.title} <div className="advantages__tooltip-box">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fillRule="evenodd" clipRule="evenodd" d="M5.67 -0.000854492H14.34C17.73 -0.000854492 20 2.37915 20 5.91915V14.0901C20 17.6201 17.73 19.9991 14.34 19.9991H5.67C2.28 19.9991 0 17.6201 0 14.0901V5.91915C0 2.37915 2.28 -0.000854492 5.67 -0.000854492ZM9.99 7.06015C9.52 7.06015 9.13 6.66915 9.13 6.19015C9.13 5.70015 9.52 5.31015 10.01 5.31015C10.49 5.31015 10.88 5.70015 10.88 6.19015C10.88 6.66915 10.49 7.06015 9.99 7.06015ZM10.87 13.7801C10.87 14.2601 10.48 14.6501 9.99 14.6501C9.51 14.6501 9.12 14.2601 9.12 13.7801V9.36015C9.12 8.87915 9.51 8.48015 9.99 8.48015C10.48 8.48015 10.87 8.87915 10.87 9.36015V13.7801Z" fill="#A4A3BA"/>
+            </svg>
+
+            <div className="advantages__tooltip-body">
+              <h4 className="advantages__tooltip-title">
+                {props.tooltipTitle}
+              </h4>
+
+              <p className="advantages__tooltip-text">
+                {props.tooltipText}
+              </p>
+            </div>
+          </div>
+        </h3>
+
+        <p className="advantages__text info-text info-text--grey">
+          {props.text}
+        </p>
+      </div>
+      
+      <div className="advantages__item-img">
+        <div className="advantages__icon-box"></div>
+      </div>
+    </li>
+  )
+};
+
+export default AdvantageItem;

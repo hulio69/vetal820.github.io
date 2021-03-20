@@ -2,13 +2,11 @@ import React, { createContext, useState, useCallback } from 'react';
 
 import ru from './words/ru';
 import en from './words/en';
-import es from './words/es';
 
 
 const words = {
   ru,
   en,
-  es,
 }
 const defaultLang = (() => {
   const lsLang = localStorage.getItem('lang');
@@ -22,8 +20,6 @@ const defaultLang = (() => {
       return 'en';
     case 'ru-RU':
       return 'ru';
-    case 'es-ES':
-      return 'es';
     default:
       return !!navigator.language && !!words[navigator.language]
         ? navigator.language

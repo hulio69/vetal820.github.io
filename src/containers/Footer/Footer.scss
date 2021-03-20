@@ -3,13 +3,6 @@
 .footer {
   width: 100%;
   padding: 60px 0;
-  border-top: 1px solid rgba(#8E939C, .15);
-
-  margin-top: 80px;
-
-  @media (max-width: 767px) {
-    margin-top: 65px;
-  }
 
   @media (max-width: 991px) {
     padding: 30px 0;
@@ -20,49 +13,34 @@
   }
 
   &__table {
-    position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
 
     @media (max-width: 991px) {
-      display: flex;
-      flex-direction: column;
-      padding-top: 70px;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
     }
   }
 
-  &__block {
-    width: 100%;
+  &__image {
     @media (max-width: 991px) {
-      order: 3;
-      text-align: center;
-    }
-  }
-
-  &__logotype {
-    display: block;
-    margin-bottom: 30px;
-    transition: opacity .3s ease;
-
-    &:hover {
-      opacity: .7;
+      margin: 0 auto;
     }
 
-    @media (max-width: 991px) {
-      margin-bottom: 0;
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
+    @media (max-width: 600px) {
+      display: none;
     }
-  }
 
-  &__text {
-    font-size: 14px;
-    line-height: 1.5;
-    color: rgba(#8E939C, .6);
+    a {
+      transition: opacity .3s ease;
+
+
+      &:hover {
+        opacity: .7;
+      }
+    }
   }
 
   &__list {
@@ -71,32 +49,19 @@
 
     @media (max-width: 991px) {
       align-items: center;
-      margin-bottom: 25px;
-    }
-
-    &--docs {
-      @media (max-width: 991px) {
-        order: 2;
-      }
-    }
-
-    &--contacts {
-      @media (max-width: 991px) {
-        order: 1;
-      }
     }
   }
 
   &__title {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 1.2;
-    color: #FFFFFF;
-    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 1.3;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: $sourceSansPro;
 
     @media (max-width: 991px) {
       font-size: 22px;
-      margin-bottom: 20px;
     }
 
     @media (max-width: 600px) {
@@ -107,22 +72,23 @@
 
   &__link {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
-    color: rgba(#8E939C, .6);
+    font-size: 24px;
+    line-height: 1.3;
+    color: #49ADF3;
     margin-bottom: 20px;
 
-    transition: color .3s ease;
+    transition: opacity .3s ease;
 
     &:last-child {
       margin-bottom: 0;
     }
 
     &:hover {
-      color: rgba(#8E939C, .9);
+      opacity: .7;
     }
 
     @media (max-width: 991px) {
+      font-size: 20px;
       margin-bottom: 15px;
     }
 
@@ -131,44 +97,72 @@
       margin-bottom: 10px;
     }
   }
-
-  &__mail {
-    color: rgba(#fff, .5);
-    transition: color .3s ease;
-    margin-left: 3px;
-
-    &:hover {
-      color: rgba(#fff, .8);
-    }
-  }
 }
 
 .social {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 30px;
 
   &__link {
-    width: 36px;
-    height: 36px;
-    background: #fff;
-    border-radius: 10px;
-    transition: opacity .3s ease;
+    width: 46px;
+    height: 46px;
+    background: #49ADF3;
+    border-radius: 50%;
+    transition: .3s ease;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 15px;
     position: relative;
+    transition: .3s ease;
+
+    svg {
+      position: relative;
+      z-index: 2;
+    }
+
+    &::before {
+      content: '';
+      border-radius: 50%;
+      display: flex;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: block;
+      background: linear-gradient(90deg, #9ADDFD 0%, #49ADF3 99.95%);
+      transition: .3s ease;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1;
+    }
+
+    @media (max-width: 991px) {
+      width: 40px;
+      height: 40px;
+    }
 
     &:last-child {
       margin-right: 0;
     }
 
     &:hover {
-      opacity: .7;
+      &::before {
+        opacity: 1;
+        visibility: visible;
+      }
     }
 
+    &:active {
+      background: #2996E2;
+
+      &::before {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
   }
 
 }

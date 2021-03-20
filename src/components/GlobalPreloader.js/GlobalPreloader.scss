@@ -1,5 +1,3 @@
-@import "src/styles/vars.scss";
-
 .main-overlay {
   position: fixed;
   top: 0;
@@ -16,7 +14,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: url(/media/images/sections/loader/preloader-bg.png)no-repeat center center / contain, $dark;
+  background: #000;
   z-index: 69;
   display: flex;
   flex-direction: column;
@@ -41,12 +39,12 @@
   }
 
   &__perc {
-    font-size: 20px;
-    color: #fff;
+    font-size: 28px;
+    color: #7a7f8d;
+    font-weight: 700;
 
     &_num {
-      font-size: 45px;
-      font-family: $micra;
+      font-size: 36px;
     }
   }
 
@@ -64,17 +62,17 @@
   }
 
   &__dot-3 {
-    background-color: $mainGreen;
+    background-color: #2cfafc;
     animation: dot3move 2s ease infinite, index 6s ease infinite;
   }
 
   &__dot-2 {
-    background-color: #2A92ED;
+    background-color: #3c49e1;
     animation: dot2move 2s ease infinite, index 6s -4s ease infinite;
   }
 
   &__dot-1 {
-    background-color: $poisonGreen;
+    background-color: #f72074;
     animation: dot1move 2s ease infinite, index 6s -2s ease infinite;
   }
 }

@@ -24,7 +24,7 @@ const GlobalPreloader = props => {
       loadedImagesCount++;
 
       if (loadedImagesCount >= images.length) {
-        setTimeout(() => setLoadingStatus(100), 1000);
+        setTimeout(() => setLoadingStatus(100), 500);
       }
       else {
         setLoadingStatus(Math.floor(loadedImagesCount / images.length * 100));

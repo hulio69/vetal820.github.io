@@ -1,0 +1,121 @@
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 50px;
+
+  @media (max-width: 1259px) {
+    margin-top: 0;
+  }
+
+  &__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 140px;
+
+    @media (max-width: 1259px) {
+      grid-gap: 50px;
+    }
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+  }
+
+  &__right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -140px;
+      width: 140%;
+      height: 480px;
+      background-image: url('/media/images/sections/about-us/before.svg');
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      @media (max-width: 1259px) {
+        left: -50px;
+      }
+
+      @media (max-width: 991px) {
+        content: none;
+      }
+    }
+
+  }
+
+  &__title {
+    margin-bottom: 60px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__subtitle{
+    margin-bottom: 25px;
+  }
+
+  &__image {
+      width: 100%;
+      position: relative;
+      z-index: 5;
+
+  }
+
+  &__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    z-index: 10;
+    width: 78px;
+    height: 78px;
+    background: #49ADF3;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+    @media (max-width: 600px) {
+      width: 46px;
+      height: 46px;
+    }
+    
+    &:hover {
+      background-color: #2896e2;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 52%;
+      left: 54%;
+      transform: translateX(-50%)translateY(-50%);
+      width: 28px;
+      height: 28px;
+      background-image: url('/media/images/sections/about-us/play.svg');
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      @media (max-width: 600px) {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}

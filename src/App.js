@@ -1,34 +1,60 @@
 import React from "react";
 
+import { Redirect, Route, Switch } from "react-router-dom";
+
 import { MultiLangProvider } from "./context/MultiLang/MultiLang";
 
 import Header from "./containers/Header/Header";
 import Hero from "./containers/Hero/Hero";
-import Team from "./containers/Team/Team";
-import Why from "./containers/Why/Why";
-import Round from "./containers/Round/Round";
-import Statistic from "./containers/Statistic/Statistic";
-import Footer from "./containers/Footer/Footer";
-import Ipo from "./containers/Ipo/Ipo";
-import Market from "./containers/Market/Market";
+import AboutUs from "./containers/AboutUs/AboutUs";
+import StepByStep from "./containers/StepByStep/StepByStep";
 import Advantages from "./containers/Advantages/Advantages";
-import GlobalPreloader from "./components/GlobalPreloader.js/GlobalPreloader";
+import Partners from "./containers/Partners/Partners";
+import Cooperation from "./containers/Cooperation/Cooperation";
+import Join from "./containers/Join/Join";
+import FAQ from "./containers/FAQ/FAQ";
+import Footer from "./containers/Footer/Footer";
+import News from "./containers/News/News";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+
+import { ROUTES } from "./config/constants";
+import HeroNews from "./containers/HeroNews/HeroNews";
 
 
 const App = () => {
   return (
     <MultiLangProvider>
-      <GlobalPreloader />
-      <Header />
-      <Hero />
-      <Ipo />
-      <Market />
-      <Advantages />
-      <Why />
-      <Round />
-      <Statistic />
-      <Team />
-      <Footer />
+      <Switch>
+        <Route path={ROUTES.notFound} component={NotFoundPage} />
+        <Route exact path={ROUTES.main} component={() => {
+          return (
+            <>
+              <Header />
+              <Hero />
+              <AboutUs />
+              <StepByStep />
+              <Advantages />
+              <Partners />
+              <Cooperation />
+              <Join />
+              <FAQ />
+              <Footer />
+            </>
+          )
+        }
+        } />
+        <Route exact path={ROUTES.news} component={() => {
+          return (
+            <>
+              <Header />
+              <HeroNews />
+              <News />
+            </>
+          )
+        }} />
+
+        <Redirect to={ROUTES.notFound} />
+      </Switch>
     </MultiLangProvider>
   );
 }
