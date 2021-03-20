@@ -6,8 +6,16 @@
   align-items: flex-end;
   padding: 150px 0;
 
-  @media (max-width: 1259px) {
-    margin-top: 0;
+  @media (max-width: 991px) {
+    padding: 80px 0;
+  }
+
+  @media (max-width: 767px) {
+    padding: 60px 0;
+  }
+
+  @media (max-width: 600px) {
+    padding: 40px 0;
   }
 
   &__grid {
@@ -70,6 +78,7 @@
 
   &__subtitle {
     margin-bottom: 25px;
+    color: $dark;
   }
 
   &__image {
@@ -80,6 +89,9 @@
     overflow: hidden;
     border-radius: 20px;
     border: 15px solid $green;
+
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   &__video {

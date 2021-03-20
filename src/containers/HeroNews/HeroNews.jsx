@@ -8,7 +8,7 @@ const HeroNews = () => {
     <section className="hero-news">
       <div className="container">
         <h2 className="hero-news__title title">
-          Новости <span>Cashback Global</span>
+          Новости <span></span>
         </h2>
       </div>
     </section>

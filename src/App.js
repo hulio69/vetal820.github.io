@@ -8,6 +8,8 @@ import Header from "./containers/Header/Header";
 import Hero from "./containers/Hero/Hero";
 import AboutUs from "./containers/AboutUs/AboutUs";
 import Join from "./containers/Join/Join";
+import Info from "./containers/Info/Info";
+import Contacts from "./containers/Contacts/Contacts";
 import Footer from "./containers/Footer/Footer";
 import News from "./containers/News/News";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
@@ -28,6 +30,8 @@ const App = () => {
               <Hero />
               <AboutUs />
 
+              <Info />
+              <Contacts />
               {/*<Join />*/}
 
               <Footer />

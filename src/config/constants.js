@@ -14,10 +14,15 @@ export const ROUTES = {
 }
 
 export const CABINET_ROUTES = {
-  main: 'https://backoffice.cashback-global.io/',
-  signIn: 'https://backoffice.cashback-global.io/sign_in',
-  signUp: 'https://backoffice.cashback-global.io/sign_up',
-  facebook: 'https://www.facebook.com/cashbackglobal.io',
-  instagram: 'https://www.instagram.com/cashback_global/',
-  telegram: 'https://t.me/cashbackglobal_io',
+  main: '/',
+  signIn: '/',
+  signUp: '/',
+  number: '%2B380500538805',  // '%2B' = '+'
+  mail: 'dolynaozer@gmail.com',
+
+  facebook: 'https://www.facebook.com/dolynaozerr/',
+  instagram: 'https://www.instagram.com/dolyna_ozerr/',
+  viber: `viber://chat?number=%2B380500538805}`,
+  // telegram: 'https://t.me/',
+
 }

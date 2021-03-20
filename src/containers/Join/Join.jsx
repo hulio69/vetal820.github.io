@@ -20,7 +20,7 @@ const Join = () => {
             </p>
 
             <a 
-              href={CABINET_ROUTES.signUp}
+              href='/'
               target="_blank"
               rel="noopener noreferrer"
               className="link-btn"

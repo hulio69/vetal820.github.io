@@ -65,7 +65,7 @@ const Header = () => {
       </div>
 
       <a
-        href='tel:+380500538805'
+        href={CABINET_ROUTES.number}
         className="header__go-to-cabinet"
         rel="noopener noreferrer"
       >

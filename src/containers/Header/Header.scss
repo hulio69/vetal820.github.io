@@ -116,8 +116,9 @@
   }
 
   &__go-to-cabinet {
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
     color: $light;
     background: $dark;
     border: 2px solid $light;
