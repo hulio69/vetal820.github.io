@@ -65,13 +65,12 @@ const Header = () => {
       </div>
 
       <a
-        href='/'
-        target="_blank"
+        href='tel:+380500538805'
         className="header__go-to-cabinet"
         rel="noopener noreferrer"
       >
         <span data-desktop>
-          Зв'язатися з нами
+          Зателефонувати
         </span>
 
         <svg className='phone-icon' data-mobile xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.64 513.64">

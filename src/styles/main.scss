@@ -2,22 +2,27 @@
 
 body {
   font-family: $openSans;
-  color: #3C3B4E;
+  color: $textDark;
   overflow-x: hidden;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
 section {
-  padding: 80px 0;
+  padding: 100px 0;
 
   @media (max-width: 991px) {
-    padding: 80px 0 0;
+    padding: 80px 0;
   }
 
   @media (max-width: 767px) {
-    padding: 65px 0 0;
+    padding: 60px 0;
+  }
+
+  @media (max-width: 600px) {
+    padding: 40px 0;
   }
 }
 
@@ -36,7 +41,7 @@ section {
   }
 
   span {
-    color: $dark;
+    color: $green;
   }
 
   &--center {
@@ -51,27 +56,29 @@ section {
     @media (max-width: 991px) {
       font-size: 35px;
     }
-  
+
     @media (max-width: 600px) {
       font-size: 25px;
     }
   }
 
-  &--subtitle {
-    font-weight: 700;
-    font-size: 27px;
-    line-height: (38/27);
-
-    @media (max-width: 991px) {
-      font-size: 22px;
-    }
-  
-    @media (max-width: 600px) {
-      font-size: 15px;
-    }
-  }
-  &--white{
+  &--white {
     color: #fff;
+  }
+}
+
+.subtitle {
+  font-family: $rubik;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: (38/27);
+
+  @media (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 15px;
   }
 }
 
@@ -90,10 +97,12 @@ section {
   &--grey {
     color: $gray;
   }
-  &--dark{
+
+  &--dark {
     color: $dark;
   }
-  &--white{
+
+  &--white {
     color: #fff;
   }
 }
@@ -126,16 +135,15 @@ ul, li {
 }
 
 .link-btn {
-  font-size: 27px;
+  font-family: $rubik;
+  font-size: 24px;
   line-height: 1.2;
   color: #fff;
-  background: $dark;
   text-decoration: none;
-  font-family: $rubik;
-  padding: 12px 30px;
+  padding: 10px 30px;
   border-radius: 100px;
   display: inline-block;
-  transition: background .3s ease;
+  transition: .3s ease;
   position: relative;
 
   @media (max-width: 991px) {
@@ -144,6 +152,26 @@ ul, li {
 
   @media (max-width: 600px) {
     font-size: 15px;
+  }
+
+  &--dark {
+    background: $dark;
+    border: 2px solid $dark;
+
+    &:hover {
+      background-color: $light;
+      color: $dark;
+    }
+  }
+
+  &--light {
+    background: $green;
+    border: 2px solid $green;
+
+    &:hover {
+      background-color: $darkGreen;
+      border-color: $darkGreen;
+    }
   }
 
   span {
@@ -156,8 +184,7 @@ ul, li {
   }
 
   &:active {
-    background: #2996E2;
-
+    box-shadow: 0 5px 10px rgba(#000, .2);
   }
 }
 

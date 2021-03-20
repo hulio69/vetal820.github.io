@@ -19,7 +19,7 @@
 
   @media (max-width: 991px) {
     align-items: flex-start;
-    padding: 10px 30px;
+    padding: 10px 10px;
     bottom: 0;
     right: 0;
     max-height: 64px;
@@ -38,6 +38,12 @@
   &__logo {
     width: 56px;
     height: 56px;
+    margin-right: 175px;
+
+    @media (max-width: 1250px) {
+      margin-right: 0;
+    }
+
 
     @media (max-width: 991px) {
       width: 45px;

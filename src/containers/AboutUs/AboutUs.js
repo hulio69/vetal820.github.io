@@ -10,21 +10,19 @@ const AboutUs = () => {
       <div className="container">
         <div className="about__grid">
           <div className="about__left">
-            <h2 className="title about__title">О нас</h2>
+            <h2 className="title about__title">Про нас</h2>
 
-            <h3 className="title title--subtitle about__subtitle">
-              Cashback Global — это платформа, которая предоставляет возможность получать кэшбэк от покупок с разных
-              продуктов и услуг по всему миру.
+            <h3 className="subtitle about__subtitle">
+              ЕКО-відпочинок у Долині Озер
             </h3>
 
             <h4 className="info-text info-text--grey">
-              Предоставляем великолепную возможность бизнесу увеличить количество клиентов с помощью кэшбэка
-            </h4>
+              Фантастична природа, чисте повітря і атмосфера спокою та натхнення! Завітайте до нас та відчуйте це особисто... </h4>
           </div>
 
           <div className="about__right">
             <img
-              src="/media/images/sections/about-us/image.png"
+              src="/media/images/sections/about-us/image.jpg"
               alt="about-us"
               className='about__image'/>
 

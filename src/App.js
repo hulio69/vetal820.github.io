@@ -7,12 +7,7 @@ import { MultiLangProvider } from "./context/MultiLang/MultiLang";
 import Header from "./containers/Header/Header";
 import Hero from "./containers/Hero/Hero";
 import AboutUs from "./containers/AboutUs/AboutUs";
-import StepByStep from "./containers/StepByStep/StepByStep";
-import Advantages from "./containers/Advantages/Advantages";
-import Partners from "./containers/Partners/Partners";
-import Cooperation from "./containers/Cooperation/Cooperation";
 import Join from "./containers/Join/Join";
-import FAQ from "./containers/FAQ/FAQ";
 import Footer from "./containers/Footer/Footer";
 import News from "./containers/News/News";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
@@ -32,12 +27,9 @@ const App = () => {
               <Header />
               <Hero />
               <AboutUs />
-              <StepByStep />
-              <Advantages />
-              <Partners />
-              <Cooperation />
-              <Join />
-              <FAQ />
+
+              {/*<Join />*/}
+
               <Footer />
             </>
           )
