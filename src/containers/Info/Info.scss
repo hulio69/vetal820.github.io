@@ -25,6 +25,11 @@
 
     @media (max-width: 991px) {
       grid-template-columns: 1fr;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 30px;
     }
   }
 

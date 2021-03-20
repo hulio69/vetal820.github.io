@@ -2,63 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01a4b4e-721b-47ed-babb-193a0a4b6e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/media/images/sections/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/images/sections/footer/logotype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Info/Info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Info/Info.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/girl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/icon1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/icon2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/icon3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/icon4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/icon5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/icon6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/info-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/advantages/tooltip-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/cooperation/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/cooperation/icon1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/cooperation/icon2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/cooperation/icon3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/cooperation/icon4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/faq/ask-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/footer/logotype.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/logo-partner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/partners-item1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/partners-item2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/partners-item3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/partners-item4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/partners-item5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/images/sections/partners/partners-item6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Advantages/Advantages.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Advantages/Advantages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Advantages/components/AdvantageItem/AdvantageItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Cooperation/Cooperation.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Cooperation/Cooperation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Cooperation/components/CooperationItem/CooperationItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/FAQ.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/FAQ.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/FAQ/components/FAQItem/FAQItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Hero/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HeroNews/HeroNews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeroNews/HeroNews.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Join/Join.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Join/Join.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Partners/Partners.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Partners/Partners.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Partners/components/PartnerItem/PartnerItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Info/Info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Info/Info.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/vars.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

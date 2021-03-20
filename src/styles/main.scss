@@ -84,14 +84,14 @@ section {
 
 .info-text {
   font-size: 24px;
-  line-height: (33/24);
+  line-height: 1.3;
 
   @media (max-width: 991px) {
     font-size: 18px;
   }
 
   @media (max-width: 600px) {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   &--grey {
