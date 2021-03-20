@@ -6,9 +6,6 @@ const NotFoundPage = () => {
   return (
     <main className="notfound">
       <div className="notfound__wrap">
-        <div className="notfound__img-logo">
-          <img src="/media/images/logo.svg" alt="" />
-        </div>
 
         <div className="notfound__img">
           <picture className="notfound__picture">
@@ -36,12 +33,6 @@ const NotFoundPage = () => {
 
         <p className="notfound__text">Страница не найдена</p>
 
-        <a
-          href="https://cashback-global.io/"
-          className="notfound__link"
-        >
-          Главная
-        </a>
       </div>
     </main>
   );

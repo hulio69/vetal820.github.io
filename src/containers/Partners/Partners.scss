@@ -54,17 +54,17 @@
 
     &:nth-child(1),
     &:nth-child(5) {
-      background-color: $lightBlue;
+      background-color: $light;
     }
 
     &:nth-child(2),
     &:nth-child(6) {
-      background-color: $middleBlue;
+      background-color: $dark;
     }
 
     &:nth-child(3),
     &:nth-child(4) {
-      background-color: $darkBlue;
+      background-color: $dark;
     }
 
     &:nth-child(1) {
@@ -122,9 +122,9 @@
     bottom: 40px;
     border-radius: 100px;
     display: block;
-    color: $middleBlue;
+    color: $dark;
     padding: 8px 20px;
-    font-family: $sourceSansPro;
+    font-family: $rubik;
     white-space: nowrap;
     font-size: 27px;
     line-height: (38/27);
@@ -135,7 +135,7 @@
     visibility: hidden;
 
     &:hover {
-      background: $middleBlue;
+      background: $dark;
       color: #fff;
     }
 

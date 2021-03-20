@@ -9,8 +9,8 @@
   width: 100%;
   left: 0;
   top: 0;
-  min-height: $headerHeight;
-  background: linear-gradient(to left, #202B86 0%, #3A459E 100%);
+  min-height: 80px;
+  background: $dark;
   z-index: 100;
 
   @media (max-width: 1450px) {
@@ -19,40 +19,32 @@
 
   @media (max-width: 991px) {
     align-items: flex-start;
-    padding: 20px 30px;
+    padding: 10px 30px;
     bottom: 0;
     right: 0;
-    max-height: 80px;
+    max-height: 64px;
     transition: all .3s ease;
+    min-height: auto;
   }
 
   @media (max-width: 767px) {
-    padding: 15px 20px;
-    max-height: 64px;
     min-height: 64px;
   }
 
-  &--open{
+  &--open {
     max-height: 100vh;
   }
 
   &__logo {
-    width: 220px;
-    height: 44px;
-    background-image: url(/media/images/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    @media (max-width: 1259px) {
-      width: 127px;
-      height: 26px;
-    }
+    width: 56px;
+    height: 56px;
 
     @media (max-width: 991px) {
-      margin-top: 5px;
+      width: 45px;
+      height: 45px;
     }
   }
-  
+
   &__nav {
     display: flex;
 
@@ -68,33 +60,42 @@
       z-index: 100;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around;
       transition: .3s ease;
       transition-property: visibility, opacity;
 
-      &--open{
+      justify-content: flex-start;
+
+      &--open {
         visibility: visible;
         opacity: 1;
       }
     }
   }
+
   &__nav-item {
     font-size: 24px;
     font-weight: 600;
-    color: #727ABC;
+    color: $gray;
     transition: color .3s ease;
 
-    &--active{
+    &--active {
       color: #fff;
     }
+
     &:not(:last-child) {
       margin-right: 20px;
 
       @media (max-width: 1450px) {
         margin-right: 15px;
       }
+
+      @media (max-width: 991px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
     }
-    &:hover{
+
+    &:hover {
       color: #fff;
     }
 
@@ -107,42 +108,26 @@
       font-size: 20px;
     }
   }
+
   &__go-to-cabinet {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: $sourceSansPro;
-    color: $middleBlue;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $light;
+    background: $dark;
+    border: 2px solid $light;
+    text-decoration: none;
+    font-family: $rubik;
+    padding: 10px 22px;
     border-radius: 100px;
-    border: 2px solid $middleBlue;
-    padding: 6px 20px;
-    transition: .3s ease;
-    transition-property: color, border-color;
-    background: transparent;
-    line-height: (30/24);
-
-    &::before {
-      left: -2px;
-      top: -2px;
-      right: -2px;
-      bottom: -2px;
-
-      @media (max-width: 1259px) {
-        display: none;
-      }
-    }
+    display: inline-block;
+    transition: background .3s ease;
+    position: relative;
 
     &:hover {
-      color: #fff;
-      border-color: transparent;
-
-      path {
-        fill: #fff;
-      }
-
-      @media (max-width: 1259px) {
-        border-color: #fff;
-      }
+      background: $light;
+      color: $dark;
     }
+
     [data-mobile] {
       display: none;
 
@@ -154,12 +139,12 @@
     @media (max-width: 1259px) {
       border-width: 1px;
       padding: 0;
-      width: 34px;
-      height: 34px;
+      width: 45px;
+      height: 45px;
       display: flex;
       align-items: center;
       justify-content: center;
-      
+
       &:active {
         background: transparent;
       }
@@ -172,44 +157,44 @@
       }
     }
   }
-  &__mobile-menu{
+
+  &__mobile-menu {
     width: 34px;
     height: 34px;
     border-radius: 100%;
     background: transparent;
-    border: 1px solid $middleBlue;
+    border: 1px solid $light;
     display: none;
     align-items: center;
     justify-content: center;
-    transition: border-color .3s ease;
     cursor: pointer;
     padding: 0;
+    transition: background-color .3s ease;
+
+    @media (max-width: 991px) {
+      width: 45px;
+      height: 45px;
+    }
 
     svg path {
       transition: fill .3s ease, stroke .3s ease;
     }
-    [data-if-open]{
+
+    [data-if-open] {
       display: none;
     }
 
-    &:hover{
-      border-color: #fff;
+    &:hover {
+      background-color: $light;
 
-      svg {
-        &[data-if-close] path{
-          fill: #fff;
-        }
-        &[data-if-open] path{
-          stroke: #fff;
-        }
-      }
     }
 
-    &--open{
-      [data-if-close]{
+    &--open {
+      [data-if-close] {
         display: none;
       }
-      [data-if-open]{
+
+      [data-if-open] {
         display: block;
       }
     }
@@ -217,5 +202,14 @@
     @media (max-width: 991px) {
       display: flex;
     }
+  }
+}
+
+.phone-icon {
+  width: 18px;
+  height: 18px;
+  path {
+    fill: $green;
+    transition: .3s ease;
   }
 }

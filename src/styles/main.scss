@@ -1,7 +1,7 @@
 @import 'src/styles/vars.scss';
 
 body {
-  font-family: $manrope;
+  font-family: $openSans;
   color: #3C3B4E;
   overflow-x: hidden;
 }
@@ -22,7 +22,7 @@ section {
 }
 
 .title {
-  font-family: $sourceSansPro;
+  font-family: $rubik;
   font-size: 60px;
   font-weight: 900;
   line-height: (75/60);
@@ -36,7 +36,7 @@ section {
   }
 
   span {
-    color: $middleBlue;
+    color: $dark;
   }
 
   &--center {
@@ -88,10 +88,10 @@ section {
   }
 
   &--grey {
-    color: $greyText;
+    color: $gray;
   }
   &--dark{
-    color: $darkColor;
+    color: $dark;
   }
   &--white{
     color: #fff;
@@ -127,11 +127,11 @@ ul, li {
 
 .link-btn {
   font-size: 27px;
-  line-height: (38/27);
+  line-height: 1.2;
   color: #fff;
-  background: $middleBlue;
+  background: $dark;
   text-decoration: none;
-  font-family: $sourceSansPro;
+  font-family: $rubik;
   padding: 12px 30px;
   border-radius: 100px;
   display: inline-block;
@@ -151,34 +151,13 @@ ul, li {
     position: relative;
   }
 
-  &::before {
-    content: '';
-    background: linear-gradient(90deg, #9ADDFD 0%, #49ADF3 99.95%);
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s ease;
-    border-radius: 100px;
-  }
-
   &:hover {
-    &::before {
-      opacity: 1;
-      visibility: visible;
-    }
+
   }
 
   &:active {
     background: #2996E2;
 
-    &:before {
-      opacity: 0;
-      visibility: hidden;
-    }
   }
 }
 

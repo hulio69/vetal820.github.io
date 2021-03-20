@@ -12,7 +12,7 @@
     line-height: (57/45);
     font-weight: 700;
     color: #3C3B4E;
-    font-family: $sourceSansPro;
+    font-family: $rubik;
   }
 
   &__date {
@@ -33,7 +33,7 @@
       width: 24px;
       height: 24px;
       border-radius: 50%;
-      background: #49ADF3;
+      background: #33aa7e;
       display: inline-block;
       animation: slide 1s infinite;
     }
@@ -44,7 +44,7 @@
 @for $n from 1 through 5 {
   .dot:nth-child(#{$n}) {
     animation-delay: (.1s * $n);
-    background: Navy(#49ADF3, (50 * $n));
+    background: Navy(#33aa7e, (50 * $n));
   }
 } 
   

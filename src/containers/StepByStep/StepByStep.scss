@@ -37,7 +37,7 @@
 
     &::before{ // bad media in design
       content: '';
-      background-color: #49ADF3;
+      background-color: #33aa7e;
       width: 200px;
       height: 200px;
       border-radius: 100%;
@@ -93,10 +93,10 @@
     }
   }
   &__step-count {
-    background-color: $middleBlue;
+    background-color: $dark;
     font-size: 45px;
     font-weight: 700;
-    font-family: $sourceSansPro;
+    font-family: $rubik;
     border-radius: 100%;
     width: 77px;
     height: 77px;
@@ -120,7 +120,7 @@
       content: '';
       width: 100%;
       height: 4px;
-      background-color: #49ADF3;
+      background-color: #33aa7e;
       position: absolute;
       left: 77px;
 

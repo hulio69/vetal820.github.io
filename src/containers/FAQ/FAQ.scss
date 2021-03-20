@@ -30,11 +30,11 @@
     transition: .3s ease;
 
     &:hover {
-      color: #49ADF3;
+      color: #33aa7e;
 
       .faq {
         &__icon {
-          background: $middleBlue;
+          background: $dark;
         }
       }
     }
@@ -42,7 +42,7 @@
     &[data-open-status="true"] {
       .faq {
         &__icon {
-          background: $middleBlue;
+          background: $dark;
   
           &::after {
             opacity: 0;
@@ -62,7 +62,7 @@
   &__icon {
     position: absolute;
     border-radius: 50%;
-    background: $darkBlue;
+    background: $dark;
     width: 30px;
     height: 30px;
     left: 0;

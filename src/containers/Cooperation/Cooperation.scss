@@ -66,20 +66,20 @@
     /*colors*/
     &:nth-child(1) {
       .cooperation__icon-box {
-        background-color: $middleBlue;
+        background-color: $dark;
       }
     }
 
     &:nth-child(2),
     &:nth-child(3) {
       .cooperation__icon-box {
-        background-color: $darkBlue;
+        background-color: $dark;
       }
     }
 
     &:nth-child(4) {
       .cooperation__icon-box {
-        background-color: $lightBlue;
+        background-color: $light;
       }
     }
     /*colors*/

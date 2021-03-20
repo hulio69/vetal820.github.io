@@ -6,7 +6,7 @@
   justify-content: center;
   min-height: 100vh;
   color: #fff;
-  background: linear-gradient(28.04deg, #1F2679 19.44%, #323DB9 95.33%);
+  background: $dark;
 
   @media (max-width: 991px) {
     align-items: flex-start;
@@ -51,7 +51,7 @@
   &__title {
     font-size: 60px;
     line-height: (75/60);
-    font-family: $sourceSansPro;
+    font-family: $rubik;
     margin-bottom: 10px;
 
     @media (max-width: 991px) {
@@ -80,7 +80,7 @@
   }
 
   &__link {
-    font-family: $sourceSansPro;
+    font-family: $rubik;
     background: #2996E2;
     border-radius: 100px;
     font-size: 27px;
@@ -91,7 +91,7 @@
     transition: .3s ease;
 
     &:hover {
-      background: $middleBlue;
+      background: $dark;
     }
 
     &:active {
