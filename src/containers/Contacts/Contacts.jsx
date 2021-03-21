@@ -11,10 +11,10 @@ const Contacts = () => {
 
 
   return (
-    <section className="contacts">
+    <section id="contacts" className="contacts">
       <div className="container">
         <h2 className="title contacts__title">
-          Де нас знайти?
+          Контакти
         </h2>
 
         <div className="contacts__items">

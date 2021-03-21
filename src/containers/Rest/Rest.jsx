@@ -7,7 +7,7 @@ import './Rest.scss';
 
 const Rest = () => {
   return (
-    <section className="rest">
+    <section id="rest" className="rest">
       <div className="container">
 
         <div className="rest__items">
@@ -36,7 +36,7 @@ const Rest = () => {
 
             <div className='rest-sale__content'>
               <h6 className="rest-sale__title">
-                Продаж участків
+                Продаж ділянок
               </h6>
 
               <p className="rest-sale__text">

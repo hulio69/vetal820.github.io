@@ -7,7 +7,7 @@ import './Info.scss';
 
 const Info = () => {
   return (
-    <section className="info">
+    <section id='info' className="info" >
       <div className="container">
         <h2 className="title info__title">
           Основна інформація

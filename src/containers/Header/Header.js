@@ -9,10 +9,10 @@ import './Header.scss';
 
 const links = [
   {anchor: 'aboutUs', title: 'О нас'},
-  {anchor: 'advantages', title: 'Преимущества'},
-  {anchor: 'partners', title: 'Партнеры'},
-  {anchor: 'whyUs', title: 'Почему мы'},
-  {anchor: 'FAQ', title: 'FAQ'},
+  {anchor: 'info', title: 'Інформація'},
+  {anchor: 'team', title: 'Відгуки'},
+  {anchor: 'rest', title: 'Продаж ділянок'},
+  {anchor: 'contacts', title: 'Контакти'},
 ]
 
 
@@ -55,13 +55,13 @@ const Header = () => {
           </a>
         )}
 
-        <NavLink
-          exact
-          to={ROUTES.news}
-          className="header__nav-item hidden"
-        >
-          Новости
-        </NavLink>
+        {/*<NavLink*/}
+        {/*  exact*/}
+        {/*  to={ROUTES.news}*/}
+        {/*  className="header__nav-item hidden"*/}
+        {/*>*/}
+        {/*  Новости*/}
+        {/*</NavLink>*/}
       </div>
 
       <a

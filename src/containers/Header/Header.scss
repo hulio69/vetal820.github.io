@@ -38,7 +38,7 @@
   &__logo {
     width: 56px;
     height: 56px;
-    margin-right: 175px;
+    margin-right: 150px;
 
     @media (max-width: 1250px) {
       margin-right: 0;
@@ -79,25 +79,32 @@
   }
 
   &__nav-item {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
     color: $gray;
     transition: color .3s ease;
+    height: 80px;
+    display: flex;
+    align-items: center;
 
     &--active {
       color: #fff;
     }
 
-    &:not(:last-child) {
-      margin-right: 20px;
+    @media (max-width: 991px) {
+      height: auto;
+      margin-bottom: 5px;
+      padding: 20px 10px;
+    }
 
-      @media (max-width: 1450px) {
-        margin-right: 15px;
-      }
+
+
+    &:not(:last-child) {
+      margin-right: 25px;
 
       @media (max-width: 991px) {
-        margin-right: 0;
-        margin-bottom: 20px;
+        margin: 0;
       }
     }
 
@@ -110,9 +117,6 @@
       pointer-events: none;
     }
 
-    @media (max-width: 1450px) {
-      font-size: 20px;
-    }
   }
 
   &__go-to-cabinet {
