@@ -140,7 +140,7 @@ ul, li {
   font-weight: 700;
   color: #fff;
   text-decoration: none;
-  padding: 12px 30px;
+  padding: 12px 30px 10px;
   border-radius: 100px;
   transition: .3s ease;
   position: relative;
@@ -150,14 +150,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  @media (max-width: 991px) {
-    font-size: 20px;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 15px;
-  }
 
   svg {
     margin-left: 10px;

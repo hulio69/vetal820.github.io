@@ -28,6 +28,7 @@ const AboutUs = () => {
 
             <a href='https://youtu.be/djAUN5xdtKw'
                target='_blank'
+               rel="noopener noreferrer"
                className="about__video"/>
           </div>
         </div>

@@ -1,7 +1,5 @@
 import React from "react";
 
-import { CABINET_ROUTES } from "../../config/constants";
-
 import './Join.scss';
 
 
@@ -12,11 +10,10 @@ const Join = () => {
         <div className="join__box">
           <div className="join__info">
             <h2 className="title title--small join__title">
-              Присоединяйтесь <br/>к&nbsp;<span>Cashback Global</span>
+              Присоединяйтесь <br/>к&nbsp;<span></span>
             </h2>
 
             <p className="join__text info-text">
-              И  получите свой первый кэшбэк!
             </p>
 
             <a 

@@ -17,7 +17,7 @@ export const CABINET_ROUTES = {
   main: '/',
   signIn: '/',
   signUp: '/',
-  number: '%2B380500538805',  // '%2B' = '+'
+  number: 'tel:%2B380500538805',  // '%2B' = '+'
   mail: 'dolynaozer@gmail.com',
 
   facebook: 'https://www.facebook.com/dolynaozerr/',
