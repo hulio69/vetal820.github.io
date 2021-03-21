@@ -11,7 +11,7 @@ const NewsItem = (props) => {
   return (
     <li className="news__item">
       <div className="news__img-wrap">
-        <img src={img} alt=""/>
+        <img src={img} alt="Dolyna Ozer Image"/>
       </div>
 
       <div className="news__body">

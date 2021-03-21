@@ -23,10 +23,10 @@ const NotFoundPage = () => {
               media="(max-width: 479px)"
             />
 
-            <img src="/media/images/sections/notfound/not-found@1x.png" alt=""/>
+            <img src="/media/images/sections/notfound/not-found@1x.png" alt="Dolyna Ozer Image"/>
           </picture>
 
-          <img src="" alt="" />
+          <img src="" alt="Dolyna Ozer Image" />
         </div>
 
         <h2 className="notfound__title">Упс!</h2>

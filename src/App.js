@@ -10,6 +10,7 @@ import AboutUs from "./containers/AboutUs/AboutUs";
 import Info from "./containers/Info/Info";
 import Contacts from "./containers/Contacts/Contacts";
 import Team from "./containers/Team/Team";
+import Rest from "./containers/Rest/Rest";
 import Footer from "./containers/Footer/Footer";
 import News from "./containers/News/News";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
@@ -32,6 +33,7 @@ const App = () => {
 
               <Info />
               <Team />
+              <Rest />
               <Contacts />
 
               <Footer />

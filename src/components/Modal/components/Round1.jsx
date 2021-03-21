@@ -14,14 +14,14 @@ const Round1 = (props) => {
           </h3>
 
           <span className='modal__cross' onClick={closeModal}>
-            <img src="/media/images/global/cross-icon-md.svg" alt="" />
+            <img src="/media/images/global/cross-icon-md.svg" alt="Dolyna Ozer Image" />
           </span>
         </div>
 
         <div className="modal__top">
           <div className="modal__column modal__column--left">
             <div className="modal__column-name">
-              <img src="/media/images/modal/suite.svg" alt="" />&nbsp;<span>
+              <img src="/media/images/modal/suite.svg" alt="Dolyna Ozer Image" />&nbsp;<span>
                 Цель
               </span>
             </div>
@@ -33,7 +33,7 @@ const Round1 = (props) => {
 
           <div className="modal__column modal__column--right">
             <div className="modal__column-name">
-              <img src="/media/images/modal/calendar.svg" alt="" />&nbsp;<span>
+              <img src="/media/images/modal/calendar.svg" alt="Dolyna Ozer Image" />&nbsp;<span>
                 Срок
               </span>
             </div>

@@ -9,7 +9,6 @@ const TeamItem = props => {
     setActiveProduct,
     image,
     name,
-    position,
     text,
   } = props;
 

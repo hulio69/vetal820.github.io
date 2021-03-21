@@ -39,7 +39,7 @@ const Header = () => {
 
       <img className='header__logo'
            src="/media/images/logotype.png"
-           alt=""
+           alt="Dolyna Ozer Image"
       />
 
       <div className={classModifier('header__nav', [isOpenMenu && 'open'])}>
