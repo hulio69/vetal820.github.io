@@ -22,7 +22,7 @@ const Rest = () => {
             <a
               href='/'
               target="_blank"
-              className="link-btn link-btn--light rest-gallery__link-btn"
+              className="link-btn link-btn--light rest-gallery__link-btn hidden"
               rel="noopener noreferrer"
             >
               <span>
@@ -40,8 +40,9 @@ const Rest = () => {
               </h6>
 
               <p className="rest-sale__text">
-                Продаж участківПродаж участківПродаж участківПродаж участківПродаж участківПродаж участківПродаж
-                участківПродаж участківПродаж участків
+                Також на території Долини Озер Ви маєте змогу придбати власну ділянку землі та створити свій рай на землі.
+                Всі подробиці Ви можете дізнатися за
+                <a href={CABINET_ROUTES.number}> телефоном</a>.
               </p>
 
               <p className="rest-sale__subtitle">

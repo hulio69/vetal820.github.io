@@ -24,7 +24,11 @@ const Contacts = () => {
             </p>
 
             <p className="contacts-info__text">
-              <span>Адреса:</span> Kyiv Oblast
+              <span>Адреса:</span> Київська обл. Макаровський район, село Лишня
+            </p>
+
+            <p className="contacts-info__text">
+              <span>Координати для GPS: </span> 50.314343, 29.959684
             </p>
 
             <p className="contacts-info__text">
