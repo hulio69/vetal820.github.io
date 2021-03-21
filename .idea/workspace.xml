@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01a4b4e-721b-47ed-babb-193a0a4b6e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Social/Social.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Social/Social.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Join/Join.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Join/Join.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Info/Info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Info/Info.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +28,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/media/images/sections/about-us" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/media/images/sections/about-us" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/public/media/images/sections/info" />
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/containers/Hero" />
-      <recent name="$PROJECT_DIR$/public/media/images/sections/footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/media/images/sections/hero" />
       <recent name="$PROJECT_DIR$/public/media/images/sections" />
       <recent name="$PROJECT_DIR$/src/containers/Info" />
     </key>
@@ -72,7 +66,7 @@
       <workItem from="1616006144299" duration="2159000" />
       <workItem from="1616054478438" duration="60000" />
       <workItem from="1616225208396" duration="5725000" />
-      <workItem from="1616307363134" duration="5516000" />
+      <workItem from="1616307363134" duration="6406000" />
     </task>
     <servers />
   </component>

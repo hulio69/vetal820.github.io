@@ -16,6 +16,10 @@
 
   position: relative;
 
+  @media (max-width: 600px) {
+    padding: 100px 0 120px;
+  }
+
   &:before {
     content: '';
     position: absolute;
@@ -37,7 +41,7 @@
     align-items: center;
   }
 
-  &__title{
+  &__title {
     color: #fff;
     margin-bottom: 25px;
 
@@ -45,6 +49,7 @@
       margin-bottom: 10px;
     }
   }
+
   &__subtitle {
     font-size: 24px;
     line-height: (33/24);
@@ -57,5 +62,44 @@
     }
   }
 
+  &__scroll {
 
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 2px;
+      height: 10px;
+      background-color: white;
+      animation: scrollDown 2s infinite;
+    }
+
+    @keyframes scrollDown {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, 0);
+      }
+
+      30% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+        transform: translate(-50%, 22px);
+      }
+    }
+  }
 }
