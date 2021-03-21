@@ -13,12 +13,29 @@ const AboutUs = () => {
           <div className="about__left">
             <h2 className="title about__title">Про нас</h2>
 
-            <h3 className="subtitle about__subtitle">
-              ЕКО-відпочинок у Долині Озер
-            </h3>
+            <h4 className="subtitle about__subtitle">
+              Характеристики <span>Долини Озер</span>
+            </h4>
 
-            <h4 className="info-text info-text--grey">
-              Фантастична природа, чисте повітря і атмосфера спокою та натхнення! Завітайте до нас та відчуйте це особисто... </h4>
+            <p className="text">
+              Площа дзеркала води — 6 га.
+            </p>
+
+            <p className="text">
+              Максимальна глибина озер — 5 м.
+            </p>
+
+            <p className="text">
+              Зариблення — постійно.
+            </p>
+
+            <p className="text">
+              Озеро харчується джерелами і струмком.
+            </p>
+
+            <p className="text">
+              Види риболовлі: аматорська, спортивна та риболовля на хижака.
+            </p>
           </div>
 
           <div className="about__right">

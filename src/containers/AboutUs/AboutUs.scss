@@ -75,7 +75,13 @@
   &__subtitle {
     margin-bottom: 25px;
     color: $dark;
+
+    span {
+      color: $green;
+    }
   }
+
+
 
   &__image {
     width: 100%;
