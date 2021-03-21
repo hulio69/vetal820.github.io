@@ -1,13 +1,21 @@
 @import 'src/styles/vars.scss';
 
 .slick {
+  &-track {
+    display: flex !important;
+  }
   &-list {
     margin: 0 -15px;
     overflow: visible;
   }
 
-  &-slide > div {
-    padding: 0 15px;
+  &-slide {
+    height: auto;
+
+    > div {
+      padding: 0 15px;
+      height: 100% !important;
+    }
   }
 
   &-dots {

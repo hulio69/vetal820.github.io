@@ -18,12 +18,15 @@ const TeamItem = props => {
       className={classModifier('team__item', [isActive && 'show'])}
       onMouseEnter={() => !isActive && setActiveProduct(id)}
     >
-      <img src={`/media/images/sections/team/${image}.jpg`} alt="zz"
-           className="team__image"/>
+      <div className="team__flex">
+        <img src={`/media/images/sections/team/${image}.jpg`} alt="zz"
+             className="team__image"/>
 
-      <span className="team__name">
+        <span className="team__name">
         {name}
       </span>
+      </div>
+
 
       <p className="team__text">
         {text}

@@ -23,6 +23,25 @@
 
   }
 
+  .container {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 28px;
+      right: -55px;
+      width: 400px;
+      height: 200px;
+      background-image: url('/media/images/sections/team/before.svg');
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      
+      @media (max-width: 991px) {
+        content: none;
+      }
+    }
+  }
+
   &__title {
     margin-bottom: 60px;
 
@@ -50,9 +69,12 @@
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    height: 100%;
 
+  }
+
+  &__flex {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -65,7 +87,7 @@
   }
 
   &__name {
-    flex: 1;
+    width: calc(100% - 69px - 15px);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.3;

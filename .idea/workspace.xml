@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01a4b4e-721b-47ed-babb-193a0a4b6e36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/media/images/sections/contacts/before.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/images/sections/team/before.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutUs/AboutUs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Team/Team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Team/Team.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Team/Team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Team/Team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Team/components/TeamItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Team/components/TeamItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/slick-sets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/slick-sets.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1616006144299" duration="2159000" />
       <workItem from="1616054478438" duration="60000" />
       <workItem from="1616225208396" duration="5725000" />
-      <workItem from="1616307363134" duration="21279000" />
+      <workItem from="1616307363134" duration="23633000" />
     </task>
     <servers />
   </component>
