@@ -22,7 +22,8 @@
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.4.3",
-    "react-share": "^4.2.1"
+    "react-share": "^4.2.1",
+    "react-slick": "^0.28.1"
   },
   "scripts": {
     "start": "react-scripts start",

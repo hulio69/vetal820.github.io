@@ -45,7 +45,7 @@ const Contacts = () => {
           </div>
 
           <div className="contacts-map">
-            <Map defaultCenter={[50.3140768, 29.9590459]} defaultZoom={9}>
+            <Map defaultCenter={[50.3140768, 29.9590459]} defaultZoom={9.5}>
               <Marker width={50} anchor={[50.3140768, 29.9590459]}/>
             </Map>
           </div>
