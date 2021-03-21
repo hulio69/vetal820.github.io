@@ -8,8 +8,8 @@ import './Header.scss';
 
 
 const links = [
-  {anchor: 'aboutUs', title: 'О нас'},
-  {anchor: 'info', title: 'Інформація'},
+  {anchor: 'aboutUs', title: 'Про нас'},
+  {anchor: 'info', title: 'Основна інформація'},
   {anchor: 'team', title: 'Відгуки'},
   {anchor: 'rest', title: 'Продаж ділянок'},
   {anchor: 'contacts', title: 'Контакти'},

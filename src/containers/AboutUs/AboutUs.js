@@ -1,6 +1,7 @@
 import React from "react";
 
 import './AboutUs.scss';
+import {CABINET_ROUTES} from "../../config/constants";
 
 
 const AboutUs = () => {
@@ -26,7 +27,7 @@ const AboutUs = () => {
               alt="about-us"
               className='about__image'/>
 
-            <a href='https://youtu.be/djAUN5xdtKw'
+            <a href={CABINET_ROUTES.youtubeVideo}
                target='_blank'
                rel="noopener noreferrer"
                className="about__video"/>

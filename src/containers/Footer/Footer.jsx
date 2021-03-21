@@ -6,6 +6,14 @@ import Social from "../../components/Social/Social";
 import './Footer.scss';
 
 
+const links = [
+  {anchor: 'aboutUs', title: 'Про нас'},
+  {anchor: 'info', title: 'Основна інформація'},
+  {anchor: 'team', title: 'Відгуки'},
+  {anchor: 'rest', title: 'Продаж ділянок'},
+  {anchor: 'contacts', title: 'Контакти'},
+]
+
 const Footer = () => {
   return (
     <footer className='footer'>
@@ -17,29 +25,22 @@ const Footer = () => {
 
           <div className="footer__list">
             <p className="footer__title">Швидкий доступ</p>
-            <a
-              href='/'
-              target="_blank"
-              className='footer__link'
-              rel="noopener noreferrer"
-            >
-              Регистрация
-            </a>
 
-            <a
-              href='/'
-              target='_blank'
-              className='footer__link'
-              rel="noopener noreferrer"
-            >
-              Вход
-            </a>
+            {links.map(link =>
+              <a
+                key={link.anchor}
+                href={"#" + link.anchor}
+                className="footer__link"
+              >
+                {link.title}
+              </a>
+            )}
           </div>
 
           <div className="footer__list">
             <p className="footer__title">Наши контакты</p>
             <a href={`mailto:${CABINET_ROUTES.mail}`}
-               className='footer__link'
+               className='footer__link footer__link--mail'
                rel="noopener noreferrer">
               {CABINET_ROUTES.mail}
             </a>

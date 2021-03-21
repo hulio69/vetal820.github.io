@@ -22,7 +22,8 @@ export const CABINET_ROUTES = {
 
   facebook: 'https://www.facebook.com/dolynaozerr/',
   instagram: 'https://www.instagram.com/dolyna_ozerr/',
-  viber: `viber://chat?number=%2B380500538805}`,
+  viber: `viber://chat?number=%2B380500538805`,
   // telegram: 'https://t.me/',
 
+  youtubeVideo: `https://youtu.be/nZNa4aJv-LE`,
 }
