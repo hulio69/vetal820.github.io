@@ -22,7 +22,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text">
-              Максимальна глибина озер — 5 м.
+              Максимальна глибина озер — 3.5 м.
             </p>
 
             <p className="text">
