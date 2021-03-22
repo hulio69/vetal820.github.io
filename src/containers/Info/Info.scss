@@ -1,0 +1,126 @@
+@import "src/styles/vars.scss";
+
+.info {
+  background-color: $dark;
+
+  &__title {
+    color: $light;
+    margin-bottom: 60px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-bottom: 60px;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 600px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &-item {
+    width: 100%;
+    padding: 20px 25px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+
+    &__icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background-color: $green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      svg, img {
+        max-width: 30px;
+        max-height: 30px;
+        path {
+          stroke: #fff;
+          fill: #fff;
+        }
+      }
+    }
+
+    &__title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.3;
+      color: $dark;
+      margin-bottom: 15px;
+    }
+
+    &__lists {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 10px;
+    }
+
+    &__list {
+      list-style: none;
+      margin-bottom: 15px;
+
+      li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.7;
+        color: $gray;
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 5px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 9px;
+          left: 0;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: $green;
+        }
+
+        span {
+          color: $green;
+          font-weight: 700;
+        }
+      }
+    }
+
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.3;
+      color: $dark;
+    }
+  }
+
+  &__link-btn {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+}
